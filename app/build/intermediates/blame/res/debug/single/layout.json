@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/fragment_addvillagedetails.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/fragment_addvillagedetails.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/fragment_cleanlinessdrive.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/fragment_cleanlinessdrive.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/fragment_volunteerdetails.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/fragment_volunteerdetails.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/temp_output.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/temp_output.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/filechooser.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/filechooser.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/image_layout.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/image_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/spinner_item_dropdown.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/spinner_item_dropdown.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/spinner_item.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/spinner_item.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/imagebar.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/imagebar.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/filelistadapter_item.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/filelistadapter_item.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/textview.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/textview.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/bottombar.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/bottombar.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/fragment_cleanedareadetails.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/fragment_cleanedareadetails.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/twoline_spinneritem.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/twoline_spinneritem.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/spindisplaynew.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/spindisplaynew.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/confirmationdialog.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/confirmationdialog.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/password_dialog.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/password_dialog.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/mainpage_fragment.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/mainpage_fragment.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/spindisplay.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/spindisplay.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/fragment_capturevideo.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/src/main/res/layout/fragment_capturevideo.xml"
+    },
+    {
+        "merged": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/deepakgavkar/Swachhta_Abhiyaan2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_dialog_title_material.xml"
+    }
+]

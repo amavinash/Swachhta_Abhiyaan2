@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_whitecurve"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/confdlg_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?android:textColorPrimary"/>
+
+    <TextView
+        android:id="@+id/confdlg_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:ems="10"
+        android:text="Confirmation Message: Are you sure you want to......?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:linksClickable="true"
+        android:autoLink=""
+        android:textColorLink="@color/blue"
+        android:textColor="?android:textColorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginBottom="4dp">
+
+        <Button
+            android:id="@+id/confdlg_leftbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/bg_bevelbutton"
+            android:textColor="@color/white"
+            android:ems="4"
+            android:text="No"/>
+
+        <Button
+            android:id="@+id/confdlg_rightbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="4"
+            android:background="@drawable/bg_bevelbutton"
+            android:textColor="@color/white"
+            android:text="Yes"/>
+    </LinearLayout>
+
+</LinearLayout>

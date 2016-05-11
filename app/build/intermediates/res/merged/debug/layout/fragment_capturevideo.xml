@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="2dp">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <View 
+                android:id="@+id/midview"
+                android:layout_width="2dp"
+				android:layout_height="0dp" 
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true"/>
+
+           <EditText
+                android:id="@+id/uploadvideofrag_serverurl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:hint="Enter url here"
+                android:visibility="gone"
+                android:ems="10"/>
+                      
+            <TextView
+                android:id="@+id/TextView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/uploadvideofrag_serverurl"
+                android:text="Form"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/fragvideo_spinner_form"
+                style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView0"/>
+            
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragvideo_spinner_form"
+                android:layout_marginTop="8dp"
+                android:paddingRight="4dp"
+                android:text="@string/code"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"/>
+			<TextView
+                android:id="@+id/TextView1_marathi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/fragvideo_spinner_form"
+                android:layout_toRightOf="@+id/TextView1"
+                android:text="@string/code_marathi"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/marathi_text_color"
+                android:textStyle="bold"/>
+			
+			<EditText
+			    android:id="@+id/locationcode_edt"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignBottom="@+id/uploadvideofrag_btnverify"
+			    android:layout_below="@+id/TextView1"
+			    android:layout_toLeftOf="@+id/uploadvideofrag_btnverify"
+			    android:ems="10"
+			    android:imeOptions="actionNext"
+			    android:inputType="number"/>
+			
+			<Button
+                android:id="@+id/uploadvideofrag_btnverify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/TextView1"
+                android:background="@drawable/bg_bevelbutton"
+            	android:textColor="@color/white"
+                android:text="Verify"/>
+			
+			<TextView
+                android:id="@+id/uploadvideofrag_verificationdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/locationcode_edt"
+                android:textStyle="italic"
+                android:text="@string/enter_location_info_click_verify"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+			
+			<TextView
+			    android:id="@+id/comments_label"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/uploadvideofrag_verificationdetails"
+			    android:layout_marginTop="8dp"
+			    android:text="Comments"
+			    android:textAppearance="?android:attr/textAppearanceSmall"
+			    android:textStyle="bold"/>
+			
+			<EditText
+                android:id="@+id/comments_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/comments_label"
+                android:imeOptions="actionDone"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout 
+        android:id="@+id/videodetails_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:background="@color/light_green">
+        
+        <View 
+            android:id="@+id/midview2"
+            android:layout_width="2dp"
+			android:layout_height="0dp" 
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"/>
+        
+        <TextView
+		    android:id="@+id/videodetails_label"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:textColor="@color/white"
+		    android:text="Video Details"
+		    android:textStyle="bold"
+		    android:textAppearance="?android:attr/textAppearanceSmall"/>
+		
+		<TextView
+		    android:id="@+id/videodetails_info"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/videodetails_label"
+		    android:textColor="@color/white"
+		    android:layout_marginTop="2dp"
+		    android:text="@string/videodetails_novideomsg"
+		    android:textAppearance="?android:attr/textAppearanceSmall"/>
+		
+		<Button
+		    android:id="@+id/videodetails_btnview"
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/videodetails_info"
+		    android:layout_toLeftOf="@+id/midview2"
+		    android:background="@drawable/selector_empty_transblack"
+		    android:text="View Video"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:textColor="@color/white"/>
+		
+		<Button
+		    android:id="@+id/videodetails_btndelete"
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/videodetails_info"
+		    android:layout_toRightOf="@+id/midview2"
+		    android:background="@drawable/selector_empty_transblack"
+		    android:text="Delete Video"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:textColor="@color/white"/>
+
+    </RelativeLayout>
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/bottombar"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#4e9ac1</color>
+    <color name="green">#00a859</color>
+    <color name="brown_green">#767f14</color>
+    <color name="yellow_green">#baf62f</color>
+    <color name="light_green">#88c54c</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    
+    <color name="marathi_text_color">#00a859</color>
+</resources>

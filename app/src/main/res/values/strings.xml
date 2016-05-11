@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Swachhta Abhiyaan</string>
+    
+    <!-- Main Page -->
+    <string name="login">Login</string>
+    <string name="add_cleanliness_drive">Add Cleanliness Location</string>
+    <string name="add_cleanliness_drive_marathi">स्वच्छता परिसर नोंदणी</string>
+    <string name="add_cleanliness_drive_combo">Add Cleanliness Location\nस्वच्छता परिसर नोंदणी</string>
+    <string name="add_volunteer_drive">Add Volunteer Details</string>
+    <string name="add_volunteer_drive_marathi">सदस्य नोंदणी</string>
+    <string name="add_volunteer_drive_combo">Add Volunteer Details\nस्वयंसेवक नोंदणी</string>
+    <string name="add_cleaned_area_details">Add Cleaned Area Details</string>
+    <string name="add_cleaned_area_details_marathi">स्वच्छ परिसर माहिती</string>
+    <string name="add_cleaned_area_details_combo">Add Cleaned Area Details\nस्वच्छ परिसर माहिती</string>
+    <string name="add_capturevideo">Add Video</string>
+    <string name="add_capturevideo_marathi">Add Video</string>
+    <string name="add_capturevideo_combo">Add Video\nव्हिडिओ नोंदणी</string>
+    <string name="add_village_combo">Add Village Data\nग्राम स्वच्छता अभियान माहिती</string>
+    
+    <!-- Add New Area Page -->
+    <string name="state">State</string>
+    <string name="state_marathi">राज्य</string>
+    <string name="district">District</string>
+    <string name="district_marathi">जिल्हा</string>
+    <string name="taluka">Taluka</string>
+    <string name="taluka_marathi">तालुका</string>
+    <string name="village_ward">Village/Ward</string>
+    <string name="village_ward_marathi">गाव/प्रभाग</string>
+    <string name="location">Location</string>
+    <string name="location_marathi">परिसर</string>
+    <string name="name">Name</string>
+    <string name="name_marathi">नाव</string>
+    <string name="address">Address </string>
+    <string name="address_marathi"> पत्ता</string>
+    <string name="pincode">Pincode </string>
+    <string name="pincode_marathi"> पिन कोड</string>
+    <string name="mobilenumber">Mobile Number </string>
+    <string name="mobilenumber_marathi"> मोबाईल नंबर</string>
+    <string name="comment">Comment </string>
+    <string name="comment_marathi"> कमेंट</string>
+    <string name="expected_garbage_weight_in_tons">Expected Garbage Weight (in kg)</string>
+    <string name="expected_garbage_weight_in_tons_marathi">अंदाजे कचऱ्याचे वजन</string>
+    
+    <!-- Volunteer Details Page -->
+    <string name="code">Location Code</string>
+    <string name="code_marathi">क्रमांक</string>
+    <string name="number_of_male_volunteers">Number of Volunteers</string>
+    <string name="number_of_male_volunteers_marathi">स्वयंसेवक</string>
+    
+    <!-- Cleaned Area Details -->
+    <string name="garbage_collected_in_ton">Garbage Collected (in kg)</string>
+    <string name="garbage_collected_in_ton_marathi">जमा कचरा</string>
+    <string name="length_of_road_cleaned">Length of road cleaned (in km)</string>
+    <string name="length_of_road_cleaned_marathi">साफ रस्त्याची लांबी</string>
+    <string name="length_of_seashore_cleaned">Length of seashore cleaned (in km)</string>
+    <string name="length_of_seashore_cleaned_marathi">साफ समुद्रकिनारा लांबी</string>
+    
+    <string name="searshore_cleaned">Length of seashore cleaned (in km)</string>
+    <string name="searshore_cleaned_marathi">साफ समुद्रकिनारा लांबी</string>
+    <string name="area_cleaned">Area Cleaned (in sq.m.)</string>
+    <string name="area_cleaned_marathi">स्वच्छ परिसर</string>
+    <string name="wet_garbage">Wet Garbage</string>
+    <string name="wet_garbage_marathi">ओला</string>
+    <string name="dry_garbage">Dry Garbage</string>
+    <string name="dry_garbage_marathi">सुका</string>
+    
+    <!-- Upload Video Form -->
+    <string name="videodetails_novideomsg">"No Video Captured.\nUse the 'Add Video' button below to capture a video"</string>
+    <string name="videodetails_template">"<b>Size: </b>^1\n"</string>
+    
+    <!-- Buttons -->
+    <string name="click_photo">Click Photo</string>
+    <string name="capture_video">Add Video</string>
+    <string name="submit">Submit</string>
+    <string name="gpsrequired_message">"GPS is required for the reports\nWould you like to enable it now?"</string>
+    <string name="gpsrequired_title">Enable GPS</string>
+    <string name="logout">Logout</string>
+    
+    <string name="ok">OK</string>
+    
+    <string name="upload_successful">Upload Successful</string>
+    <string name="uploading_data">Uploading Data</string>
+    <string name="checking_password">Checking Password</string>
+    <string name="verifying_code">Verifying Location Code</string>
+    <string name="checking_video_access">Checking if video access allowed</string>
+    <string name="msg_nolocation_enablegps">There is no location information. Please enable GPS if its not active</string>
+    <string name="warning_pickstate">Please pick a state</string>
+    <string name="warning_pickdistrict">Please pick a district</string>
+    <string name="warning_picktaluka">Please pick a taluka</string>
+     <string name="warning_pickvillage">Please pick a village</string>
+    <string name="warning_entervillagename">Please enter a village/ward name</string>
+    <string name="warning_invalidlocation">Please enter a location</string>
+
+    <string name="warning_invalidname">Please enter a name</string>
+    <string name="warning_invalidaddress">Please enter a address</string>
+    <string name="warning_invalidpincode">Please enter a pincode</string>
+    <string name="warning_invalidmobilenumber">Please enter a mobile number</string>
+    <string name="warning_invalidcomment">Please enter a comment</string>
+
+    <string name="warning_invalid_garbageweight">Please enter the expected garbage weight</string>
+    <string name="warning_addphoto">Please add a photo</string>
+    <string name="enter_location_info_click_verify">Enter location code and click verify to see location information</string>
+    <string name="msg_enter_username">Please enter a username</string>
+    <string name="msg_enter_password">Please enter a password</string>
+    <string name="msg_server_error">The server encountered an error.\nPlease try again in a minute</string>
+    <string name="msg_error_occured">An error occurred while uploading the report.\nPlease try again</string>
+    <string name="error">Error</string>
+    <string name="msg_enter_location_code">Please enter a location code</string>
+    <string name="msg_enter_roadlength_area">Please enter the area or road length cleaned</string>
+    <string name="msg_enter_roadlength_area_village">Please enter the area cleaned</string>
+    <string name="msg_enter_roadlength">Please enter the road length cleaned</string>
+    <string name="msg_enter_seashore_length">Please enter seashore length cleaned</string>
+    <string name="warning_enter_location_code">Please enter a location code</string>
+    <string name="warning_enter_num_volunteers">Please enter the number of volunteers</string>
+    <string name="warning_servererror_tryagain">The server encountered an error.\nPlease try again in a minute</string>
+    <string name="warning_three_images_clicked">3 images already clicked.\nRemove one if you want to add another</string>
+    <string name="warning_pickform">Please select a form</string>
+    <string name="warning_nocomment">Please enter a comment</string>
+    <string name="warning_novideo">Please capture a video</string>
+    <string name="warning_nodrygarbageamount">Please enter the amount of dry garbage collected</string>
+    <string name="warning_nowetgarbageamount">Please enter the amount of wet garbage collected</string>
+    <string name="error_clicking_photo">An error occurred while clicking the photo.\nPlease try again</string>
+    <string name="warning_nolocationinfo">The system does not have any location information yet.\nPlease wait 10 seconds and try again</string>
+    <string name="warning_inaccurate_location_info">Location accuracy is low.\nPlease wait 30 seconds and try again\nठिकाणाची अक्षांश व रेखांश माहिती अपुरी आहे. तुम्ही ३० सेकंद थांबू शकता का ?</string>
+    <string name="please_wait">Please wait</string>
+    <string name="title_inaccurate_location_info">Inaccurate Location Information</string>
+    <string name="wait">Wait</string>
+    <string name="click_now">Click Now</string>
+    <string name="error_uploading_file">Error uploading file</string>
+    <string name="data_uploaded_successfully">Data uploaded successfully</string>
+    <string name="upload_cancelled">Upload cancelled</string>
+    <string name="error_checking_location_code">Error while checking location code</string>
+    <string name="location_code_verification_cancelled">Location Code Verification cancelled</string>
+
+    
+    
+</resources>

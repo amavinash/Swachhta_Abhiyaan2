@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_swachhata_logo"
+        android:visibility="invisible"/>
+    
+    <Button
+        android:id="@+id/mainfrag_btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_bevelbutton"
+        android:text="@string/login"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainfrag_btnlogin"
+        android:layout_marginTop="12dp"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mainfrag_btnadddrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bevelbutton"
+            android:drawableLeft="@drawable/ic_new"
+            android:drawablePadding="2dp"
+            android:enabled="false"
+            android:gravity="left"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/add_cleanliness_drive_combo"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/mainfrag_btnaddvolunteerdrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bevelbutton"
+            android:drawableLeft="@drawable/ic_volunteers"
+            android:drawablePadding="2dp"
+            android:gravity="left"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:enabled="false"
+            android:text="@string/add_volunteer_drive_combo"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/mainfrag_btnaddcleanedareadetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bevelbutton"
+            android:drawableLeft="@drawable/ic_done"
+            android:drawablePadding="2dp"
+            android:gravity="left"
+            android:enabled="false"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/add_cleaned_area_details_combo"
+            android:textColor="@color/white"/>
+        
+        <Button
+            android:id="@+id/mainfrag_btncapturevideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bevelbutton"
+            android:drawableLeft="@drawable/ic_video_white"
+            android:drawablePadding="2dp"
+            android:gravity="left"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:enabled="false"
+            android:text="@string/add_capturevideo_combo"
+            android:textColor="@color/white"/>
+        
+        <Button
+            android:id="@+id/mainfrag_btnaddvillage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bevelbutton"
+            android:drawableLeft="@drawable/ic_village"
+            android:drawablePadding="2dp"
+            android:gravity="left"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:enabled="false"
+            android:paddingTop="8dp"
+            android:text="@string/add_village_combo"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>

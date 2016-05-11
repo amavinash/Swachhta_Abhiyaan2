@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:padding="4dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:paddingRight="4dp"
+                android:text="@string/code"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"/>
+            
+            <TextView
+                android:id="@+id/TextView1_marathi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView1"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:text="@string/code_marathi"
+                android:textColor="@color/marathi_text_color"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/volunteerdetailsfrag_code_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView1"
+                android:layout_toLeftOf="@+id/volunteerdetailsfrag_btnverify"
+                android:layout_alignBottom="@+id/volunteerdetailsfrag_btnverify"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="number"/>
+            
+            <Button
+                android:id="@+id/volunteerdetailsfrag_btnverify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bg_bevelbutton"
+            	android:textColor="@color/white"
+                android:layout_below="@+id/TextView1"
+                android:text="Verify"/>
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/volunteerdetailsfrag_locationcode_verificationinfo"
+                android:layout_marginTop="8dp"
+                android:text="@string/number_of_male_volunteers"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"/>
+            
+            <TextView
+                android:id="@+id/TextView2_marathi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/TextView2"
+                android:text="@string/number_of_male_volunteers_marathi"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/marathi_text_color"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/volunteerdetailsfrag_nummalevolunteers_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView2_marathi"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/volunteerdetailsfrag_locationcode_verificationinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:textStyle="italic"
+                android:layout_below="@+id/volunteerdetailsfrag_code_edt"
+                android:text="@string/enter_location_info_click_verify"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/imagebar"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/bottombar"/>
+
+</LinearLayout>

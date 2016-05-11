@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="533dp">
+
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingRight="4dp"
+                android:text="@string/code"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView1_marathi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/TextView1"
+                android:text="@string/code_marathi"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/marathi_text_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/locationcode_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/cleanedareadetailsfrag_btnverify"
+                android:layout_below="@+id/TextView1"
+                android:layout_toLeftOf="@+id/cleanedareadetailsfrag_btnverify"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cleanedareadetailsfrag_verificationdetails"
+                android:layout_marginTop="8dp"
+                android:text="@string/area_cleaned"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView2_marathi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView2"
+                android:text="@string/area_cleaned_marathi"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/marathi_text_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cleanedareadetailsfrag_area_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView2_marathi"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/cleanedareadetailsfrag_roadlengthcleaned_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/TextView4_marathi"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"></EditText>
+
+            <TextView
+                android:id="@+id/TextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/cleanedareadetailsfrag_area_edt"
+                android:layout_marginTop="8dp"
+                android:text="@string/length_of_road_cleaned"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView4_marathi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView4"
+                android:text="@string/length_of_road_cleaned_marathi"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/marathi_text_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView4_seashore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/cleanedareadetailsfrag_roadlengthcleaned_edt"
+                android:layout_marginTop="8dp"
+                android:text="@string/searshore_cleaned"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView4_marathi_seashore"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView4_seashore"
+                android:text="@string/searshore_cleaned_marathi"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/marathi_text_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cleanedareadetailsfrag_seashorelengthcleaned_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/TextView4_marathi_seashore"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"></EditText>
+
+            <TextView
+
+                android:id="@+id/TextView3"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_below="@+id/cleanedareadetailsfrag_seashorelengthcleaned_edt"
+
+                android:layout_marginTop="8dp"
+
+                android:text="@string/garbage_collected_in_ton"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:id="@+id/TextView3_marathi"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_below="@+id/TextView3"
+
+                android:text="@string/garbage_collected_in_ton_marathi"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textColor="@color/marathi_text_color"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:id="@+id/cleanlinessdrive_drygarbage_label"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_below="@+id/TextView3_marathi"
+
+                android:layout_toLeftOf="@+id/cleanlinessdrive_garbage_seperator"
+
+                android:text="@string/dry_garbage"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:id="@+id/cleanlinessdrive_drygarbage_label_marathi"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_below="@+id/cleanlinessdrive_drygarbage_label"
+
+                android:layout_toLeftOf="@+id/cleanlinessdrive_garbage_seperator"
+
+                android:text="@string/dry_garbage_marathi"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textColor="@color/marathi_text_color"
+
+                android:textStyle="bold" />
+
+
+            <EditText
+
+                android:id="@+id/cleanedareadetailsfrag_garbageweightdry_edt"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_below="@+id/cleanlinessdrive_drygarbage_label_marathi"
+
+                android:layout_toLeftOf="@+id/cleanlinessdrive_garbage_seperator"
+
+                android:imeOptions="actionNext"
+
+                android:inputType="numberDecimal"
+
+                android:singleLine="true" />
+
+
+            <View
+
+                android:id="@+id/cleanlinessdrive_garbage_seperator"
+
+                android:layout_width="2dp"
+
+                android:layout_height="4dp"
+
+                android:layout_centerInParent="true" />
+
+
+            <TextView
+
+                android:id="@+id/cleanlinessdrive_wetgarbage_label"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_below="@+id/TextView3_marathi"
+
+                android:layout_toRightOf="@+id/cleanlinessdrive_garbage_seperator"
+
+                android:text="@string/wet_garbage"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:id="@+id/cleanlinessdrive_wetgarbage_label_marathi"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_below="@+id/cleanlinessdrive_wetgarbage_label"
+
+                android:layout_toRightOf="@+id/cleanlinessdrive_garbage_seperator"
+
+                android:text="@string/wet_garbage_marathi"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textColor="@color/marathi_text_color"
+
+                android:textStyle="bold" />
+
+
+            <EditText
+
+                android:id="@+id/cleanedareadetailsfrag_garbageweightwet_edt"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_below="@+id/cleanlinessdrive_wetgarbage_label_marathi"
+
+                android:layout_toRightOf="@+id/cleanlinessdrive_garbage_seperator"
+
+                android:imeOptions="actionDone"
+
+                android:inputType="numberDecimal"
+
+                android:singleLine="true" />
+
+
+            <Button
+                android:id="@+id/cleanedareadetailsfrag_btnverify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/TextView1"
+                android:background="@drawable/bg_bevelbutton"
+                android:text="Verify"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/cleanedareadetailsfrag_verificationdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/locationcode_edt"
+                android:text="@string/enter_location_info_click_verify"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <include
+        layout="@layout/imagebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <include
+        layout="@layout/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+</LinearLayout>

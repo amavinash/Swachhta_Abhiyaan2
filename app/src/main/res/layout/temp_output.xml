@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/tempoutput_imagelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <View
+                android:id="@+id/tempoutput_locationinfo_midview"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="1dp"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:id="@+id/tempoutput_locationinfo_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:layout_toLeftOf="@+id/tempoutput_locationinfo_midview"
+                android:text="Latitude"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/tempoutput_locationinfo_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/codedisplayfrag_code_tv"
+                android:layout_toRightOf="@+id/tempoutput_locationinfo_midview"
+                android:text="Longitude"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            
+            <TextView
+                android:id="@+id/tempoutput_locationinfo_accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_toLeftOf="@+id/tempoutput_locationinfo_midview"
+                android:text="Accuracy"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tempoutput_locationinfo_latitude"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/tempoutput_locationinfo_latitude"
+                android:text="Latitude"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/codedisplayfrag_code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tempoutput_locationinfo_longitude"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold"
+                android:text="Longitude"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="4dp"
+                android:layout_alignRight="@+id/tempoutput_locationinfo_latitude"
+                android:layout_below="@+id/tempoutput_locationinfo_latitude"
+                android:textStyle="bold"
+                android:text="Accuracy"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tempoutput_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+        
+    </LinearLayout>
+
+</ScrollView>

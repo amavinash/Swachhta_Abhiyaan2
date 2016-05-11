@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="240dp"
+    android:minWidth="200dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/filechooser_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="Title"/>
+
+    <TextView
+        android:id="@+id/filechooser_currentdirectory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#ffdddddd"
+        android:textColor="@color/black"
+        android:text="Current Directory"/>
+
+    <ListView
+	    android:id="@+id/filechooser_directorylist"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    tools:listitem="@layout/filelistadapter_item"
+	    android:divider="#ffdddddd"
+	    android:dividerHeight="0.5dp"
+	    android:padding="2dp">
+	</ListView>
+
+   
+
+</LinearLayout>

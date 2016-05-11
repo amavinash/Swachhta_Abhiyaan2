@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green">
+
+    <Button
+        android:id="@+id/bottombarbtn_clickphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_trans_to_grey"
+        android:text="Click Photo"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/bottombarbtn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_trans_to_grey"
+        android:text="Submit"
+        android:textColor="@color/white"/>
+</LinearLayout>
